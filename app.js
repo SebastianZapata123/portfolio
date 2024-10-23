@@ -68,3 +68,8 @@ function renderNavbar(){
 }
 
 renderNavbar();
+
+const cv = document.querySelector(".cv")
+cv.addEventListener("click",()=>{
+    
+})
