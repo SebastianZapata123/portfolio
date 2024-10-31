@@ -768,11 +768,14 @@ margin-top: 30px;
 @media (max-width: 480px) {
 
   body{
-    width: 100vh;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
 
   .top-container{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
