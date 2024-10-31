@@ -880,59 +880,61 @@ margin-top: 30px;
     bottom: 0px;
     position: absolute;
   }
+
+  .mid-container .row-2-container .parrafo p {
+    text-align: start;
+    font-size: 16px;
+  }
+  
+  .mid-container .row-2-container .parrafo img {
+    height: 200px;
+  }
+  
+  .bottom-container {
+    height: 100%;
+  }
+  
+  .bottom-container h3 {
+    font-size: 30px;
+  }
+  
+  .bottom-container .bottom-row {
+    margin-top: 20px;
+  }
+  
+  .bottom-container .bottom-row .list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .bottom-container .bottom-row .list .proyect-card {
+    width: 90%; /* Ajuste para pantallas pequeñas */
+  }
+  
+  .bottom-container .bottom-row .list .proyect-card .imagen-row{
+    margin-top: 10px;
+  
+  }
+  
+  .bottom-container .bottom-row .list .proyect-card .imagen-row .img1 {
+   height: 300px;
+  left: -60px;
+  
+  }
+  
+  .bottom-container .bottom-row .list .proyect-card .imagen-row .img2 {
+    height: 300px;
+   left: -30px;
+   
+   }
+  
+  .bottom-container .bottom-row .list .proyect-card .languaje-row p {
+    font-size: 10px;
+  }
 } 
 
-.mid-container .row-2-container .parrafo p {
-  text-align: start;
-  font-size: 16px;
-}
 
-.mid-container .row-2-container .parrafo img {
-  height: 200px;
-}
-
-.bottom-container {
-  height: 100%;
-}
-
-.bottom-container h3 {
-  font-size: 30px;
-}
-
-.bottom-container .bottom-row {
-  margin-top: 20px;
-}
-
-.bottom-container .bottom-row .list {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.bottom-container .bottom-row .list .proyect-card {
-  width: 90%; /* Ajuste para pantallas pequeñas */
-}
-
-.bottom-container .bottom-row .list .proyect-card .imagen-row{
-  margin-top: 10px;
-
-}
-
-.bottom-container .bottom-row .list .proyect-card .imagen-row .img1 {
- height: 300px;
-left: -60px;
-
-}
-
-.bottom-container .bottom-row .list .proyect-card .imagen-row .img2 {
-  height: 300px;
- left: -30px;
- 
- }
-
-.bottom-container .bottom-row .list .proyect-card .languaje-row p {
-  font-size: 10px;
-}
 
 /* Evita el desbordamiento en general */
 html, body {
