@@ -765,12 +765,15 @@ margin-top: 30px;
 }
 
 /* Para pantallas de hasta 480px (móviles) */
-@media (max-width: 480px) {
+@media (max-width: 490px) {
+
+
 
   body{
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
+
   }
 
 
@@ -894,3 +897,58 @@ margin-top: 30px;
 .mid-container .row-2-container .parrafo img{
   height: 200px;
 }
+
+.bottom-container{
+  height: 100%;
+}
+.bottom-container h3{
+  font-size: 30px;
+
+}
+
+.bottom-container .bottom-row{
+  margin-top: 20px;
+}
+
+.bottom-container .bottom-row .list{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bottom-container .bottom-row .list .proyect-card{
+  width: 300px;
+}
+
+.bottom-container .bottom-row .list .proyect-card .imagen-row img{
+  height: 300px;
+}
+
+.bottom-container .bottom-row .list .proyect-card .languaje-row p{
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
