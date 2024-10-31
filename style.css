@@ -754,3 +754,135 @@ margin-top: 30px;
 }
 
 
+/*      Responsive            */
+
+/* Para pantallas de hasta 768px (tablets) */
+@media (max-width: 768px) {
+  body {
+    
+      font-size: 14px;
+  }
+}
+
+/* Para pantallas de hasta 480px (móviles) */
+@media (max-width: 480px) {
+
+  .top-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-container .row-container{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+  ;
+
+  }
+
+  .top-container .row-container h1{
+    width: 180px;
+    text-align: start;
+
+
+    font-size: 40px;
+  }
+
+  .top-container .row-container p{
+    text-align: start;
+    width: auto;
+    margin: 0px, 10px, 0px, 10px;
+    font-size: 20px;
+  }
+
+  .top-container .row-terminal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    width: 100%;
+  }
+
+  .top-container .row-container .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 60px;
+  }
+  .top-container .row-container .contact .cv{
+    font-size: 15px;
+  }
+
+  .top-container .row-terminal .terminal{
+    font-size: 10px;
+    position: absolute;
+    animation-name: none;
+    height: 300px;
+    width: 300px;
+  }
+
+  .separation{
+    display: none;
+  }
+
+.mid-container{
+    height: 1500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+  .mid-container .tech-stack{
+    position: absolute;
+    top: 0px;
+    
+    width: 100%;
+
+  }
+
+  .mid-container .tech-stack h2{
+    left: 30%;
+  }
+
+  .mid-container .tech-stack .skills{
+    left: 6%;
+
+  }
+
+  .mid-container .tech-stack .skills .layer-1 .card{
+     font-size: 12px; 
+  }
+
+  .mid-container .tech-stack .skills .layer-2 .card{
+    font-size: 12px; 
+ }
+
+ .mid-container .tech-stack .skills .layer-3 .card{
+  font-size: 12px; 
+}
+  .mid-container .row-2-container{
+    box-shadow: none ;
+    border-radius: 0;
+    height: 700px;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+  }
+
+} 
+
+.mid-container .row-2-container .parrafo p{
+  text-align: start;
+  font-size: 16px;
+}
+
+
+.mid-container .row-2-container .parrafo img{
+  height: 200px;
+}
