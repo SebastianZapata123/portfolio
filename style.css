@@ -833,6 +833,11 @@ margin-top: 30px;
     width: 300px;
   }
 
+  .top-container .row-terminal .terminal .info-terminal{
+    padding: 0px;
+    padding-left: 20px;
+  }
+
   .separation {
     display: none;
   }
